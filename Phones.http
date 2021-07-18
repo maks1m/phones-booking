@@ -1,0 +1,15 @@
+###
+GET localhost:8080/api/phones
+
+###
+GET localhost:8080/api/phones/Nokia 3310
+
+###
+POST localhost:8080/api/phones/Nokia 3310/book
+userName: Maks
+
+###
+POST localhost:8080/api/phones/Nokia 3310/return
+userName: Maks
+
+

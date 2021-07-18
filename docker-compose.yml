@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  phones:
+    container_name: phones
+    build: .
+    ports:
+      - 8080:8080
+    

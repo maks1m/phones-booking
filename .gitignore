@@ -1,0 +1,27 @@
+.idea/
+out/
+.idea_modules/
+
+### macOS template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Java template
+*.class
+*.log
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+### Gradle template
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
